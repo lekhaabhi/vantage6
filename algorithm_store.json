@@ -1,0 +1,50 @@
+{
+  "name": "v6logisticregrssion",
+  "image": "v6logisticregrssion",
+  "vantage6_version": "4.6",
+  "code_url": "https://mygitrepo.org",
+  "documentation_url": "",
+  "partitioning": "horizontal",
+  "functions": [
+    {
+      "name": "central",
+      "description": "Testing the logistic regression ",
+      "type": "central",
+      "databases": [
+        {
+          "name": "Partial database 1"
+        },
+        {
+          "name": "Partial database 2"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "arg1",
+          "type": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "name": "partial",
+      "description": "",
+      "type": "federated",
+      "databases": [
+        {
+          "name": "Database 1"
+        },
+        {
+          "name": "Database 2"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "arg1",
+          "type": "",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
